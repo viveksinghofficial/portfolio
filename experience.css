@@ -1,0 +1,93 @@
+/* Section */
+.experience-section {
+    padding: 60px 10%;
+    background: #0f172a;
+    color: #fff;
+    text-align: center;
+}
+
+/* Title */
+.experience-section-title {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    background: linear-gradient(90deg, #6366f1, #a855f7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Container */
+.experience-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+/* Card */
+.experience-card {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 25px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    text-align: left;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Hover Effect */
+.experience-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 15px 30px rgba(79, 70, 229, 0.4);
+}
+
+/* Company Name */
+.company-name {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    color: #a855f7;
+}
+
+/* Text */
+.location,
+.duration {
+    font-size: 0.9rem;
+    color: #cbd5f5;
+    margin-bottom: 5px;
+}
+
+/* Mode Badge */
+.mode {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+/* Different Modes */
+.remote {
+    background: #22c55e;
+}
+
+.onsite {
+    background: #ef4444;
+}
+
+.hybrid {
+    background: #3b82f6;
+}
+
+/* Details */
+.details {
+    font-size: 0.95rem;
+    color: #e2e8f0;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 2rem;
+    }
+}
